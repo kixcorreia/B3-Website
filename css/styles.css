@@ -602,6 +602,11 @@ progress {
   max-width: 100%;
   height: auto;
 }
+.img-fluid-50 {
+  max-width: 50%;
+  height: auto;
+  align: center;
+}
 
 .img-thumbnail {
   padding: 0.25rem;
@@ -10840,8 +10845,8 @@ body:before {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #2a5555;
-  opacity: 0.7;
+  background-color: #693a1e; /* #2a5555; */
+  opacity: 0.5;
   z-index: 1;
 }
 
@@ -10883,13 +10888,17 @@ video.bg-video {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.85);
+  background-image: url("../assets/img/foto site.jpg") ;
+  background-size: contain ;
+  opacity: 0.9;
+  /*background-color: rgba(0, 0, 0, 0.85);*/
 }
 .masthead .masthead-content {
   position: relative;
   max-width: 40rem;
   padding-top: 5rem;
   padding-bottom: 5rem;
+
 }
 .masthead .masthead-content h1, .masthead .masthead-content .h1 {
   font-size: 2.5rem;
